@@ -451,6 +451,8 @@ func (b *BitcoindEstimator) fetchEstimate(confTarget uint32) (SatPerKWeight, err
 
 		satPerKw = b.minFeePerKW
 	}
+	log.Infof("WORKS")
+	satPerKw = b.minFeePerKW * 7
 
 	log.Debugf("Returning %v sat/kw for conf target of %v",
 		int64(satPerKw), confTarget)
