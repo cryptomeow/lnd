@@ -77,13 +77,13 @@ require (
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
 
-replace github.com/lightningnetwork/lnd/ticker => ./ticker
+replace github.com/cryptomeow/lnd/ticker => ./ticker
 
-replace github.com/lightningnetwork/lnd/queue => ./queue
+replace github.com/cryptomeow/lnd/queue => ./queue
 
-replace github.com/lightningnetwork/lnd/cert => ./cert
+replace github.com/cryptomeow/lnd/cert => ./cert
 
-replace github.com/lightningnetwork/lnd/clock => ./clock
+replace github.com/cryptomeow/lnd/clock => ./clock
 
 replace git.schwanenlied.me/yawning/bsaes.git => github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e
 
