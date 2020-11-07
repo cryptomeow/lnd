@@ -6,7 +6,7 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // DefaultConfTarget is the default confirmation target for autopilot channels.

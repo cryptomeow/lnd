@@ -14,7 +14,7 @@ import (
 	"golang.org/x/crypto/hkdf"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/cryptomeow/lnd/keychain"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb/migtest"
 )
 
 var (

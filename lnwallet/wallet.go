@@ -18,14 +18,14 @@ import (
 	"github.com/btcsuite/btcutil/psbt"
 	"github.com/btcsuite/btcutil/txsort"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwallet/chanfunding"
-	"github.com/lightningnetwork/lnd/lnwallet/chanvalidate"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/lnwallet/chanfunding"
+	"github.com/cryptomeow/lnd/lnwallet/chanvalidate"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/shachain"
 )
 
 const (

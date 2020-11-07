@@ -9,7 +9,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/chainntnfs"
 )
 
 var (

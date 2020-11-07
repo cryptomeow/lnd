@@ -5,8 +5,8 @@ import (
 	"io"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 // htlcOutgoingContestResolver is a ContractResolver that's able to resolve an

@@ -12,7 +12,7 @@ import (
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/lightninglabs/neutrino"
 	"github.com/lightninglabs/neutrino/headerfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 var (

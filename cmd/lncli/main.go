@@ -13,10 +13,10 @@ import (
 	"syscall"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/cryptomeow/lnd/build"
+	"github.com/cryptomeow/lnd/lncfg"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/macaroons"
 	"github.com/urfave/cli"
 
 	"golang.org/x/crypto/ssh/terminal"

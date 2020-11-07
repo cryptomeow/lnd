@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/lightningnetwork/lnd/watchtower/wtwire"
+	"github.com/cryptomeow/lnd/watchtower/wtwire"
 )
 
 // prefixWithMsgType takes []byte and adds a wire protocol prefix

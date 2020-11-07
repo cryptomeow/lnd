@@ -8,12 +8,12 @@ import (
 
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/chainreg"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnrpc/routerrpc"
+	"github.com/cryptomeow/lnd/lntest"
+	"github.com/cryptomeow/lnd/routing/route"
 )
 
 // testSendToRouteMultiPath tests that we are able to successfully route a

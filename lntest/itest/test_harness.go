@@ -17,9 +17,9 @@ import (
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lntest"
+	"github.com/cryptomeow/lnd/lntest/wait"
 )
 
 var (

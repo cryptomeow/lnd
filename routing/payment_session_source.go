@@ -2,10 +2,10 @@ package routing
 
 import (
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/zpay32"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/routing/route"
+	"github.com/cryptomeow/lnd/zpay32"
 )
 
 // A compile time assertion to ensure MissionControl meets the

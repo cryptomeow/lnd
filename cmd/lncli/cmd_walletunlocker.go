@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/walletunlocker"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/walletunlocker"
 	"github.com/urfave/cli"
 )
 

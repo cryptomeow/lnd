@@ -12,11 +12,11 @@ import (
 
 	"github.com/btcsuite/btcutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/htlcswitch/hop"
+	"github.com/cryptomeow/lnd/lntypes"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/ticker"
 )
 
 var zeroCircuit = channeldb.CircuitKey{}

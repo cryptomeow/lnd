@@ -10,12 +10,12 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/lightningnetwork/lnd/aezeed"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
+	"github.com/cryptomeow/lnd/aezeed"
+	"github.com/cryptomeow/lnd/chanbackup"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/lnwallet/btcwallet"
 )
 
 // ChannelsToRecover wraps any set of packed (serialized+encrypted) channel

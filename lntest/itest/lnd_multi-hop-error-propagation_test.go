@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnrpc/routerrpc"
+	"github.com/cryptomeow/lnd/lntest"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 func testHtlcErrorPropagation(net *lntest.NetworkHarness, t *harnessTest) {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/keychain"
 )
 
 // ChannelRestorer is an interface that allows the Recover method to map the

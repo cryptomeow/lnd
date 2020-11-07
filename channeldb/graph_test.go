@@ -18,9 +18,9 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/routing/route"
 )
 
 var (

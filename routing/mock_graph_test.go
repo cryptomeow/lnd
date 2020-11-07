@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/routing/route"
 )
 
 // createPubkey return a new test pubkey.

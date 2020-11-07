@@ -3,8 +3,8 @@ package discovery
 import (
 	"sync"
 
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnpeer"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // reliableSenderCfg contains all of necessary items for the reliableSender to

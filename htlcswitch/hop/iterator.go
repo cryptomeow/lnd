@@ -7,7 +7,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // Iterator is an interface that abstracts away the routing information

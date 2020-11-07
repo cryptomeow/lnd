@@ -16,11 +16,11 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/shachain"
 )
 
 const (

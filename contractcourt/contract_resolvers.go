@@ -8,8 +8,8 @@ import (
 
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/cryptomeow/lnd/build"
+	"github.com/cryptomeow/lnd/channeldb"
 )
 
 var (

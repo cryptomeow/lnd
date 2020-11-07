@@ -8,8 +8,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 var (

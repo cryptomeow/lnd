@@ -7,7 +7,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // EncrypterType establishes an enum used in serialization to indicate how to

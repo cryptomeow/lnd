@@ -5,8 +5,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // Peer is an interface which represents a remote lightning node.

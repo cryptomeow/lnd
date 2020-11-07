@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtmock"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/cryptomeow/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/watchtower/blob"
+	"github.com/cryptomeow/lnd/watchtower/lookout"
+	"github.com/cryptomeow/lnd/watchtower/wtdb"
+	"github.com/cryptomeow/lnd/watchtower/wtmock"
+	"github.com/cryptomeow/lnd/watchtower/wtpolicy"
 )
 
 type mockPunisher struct {

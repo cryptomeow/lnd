@@ -4,11 +4,11 @@ import (
 	"net"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtserver"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/tor"
+	"github.com/cryptomeow/lnd/watchtower/wtdb"
+	"github.com/cryptomeow/lnd/watchtower/wtserver"
 )
 
 // DB abstracts the required database operations required by the watchtower

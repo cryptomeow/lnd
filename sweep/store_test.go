@@ -5,7 +5,7 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/cryptomeow/lnd/channeldb"
 )
 
 // TestStore asserts that the store persists the presented data to disk and is

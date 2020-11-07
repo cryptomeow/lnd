@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/lntypes"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 const (

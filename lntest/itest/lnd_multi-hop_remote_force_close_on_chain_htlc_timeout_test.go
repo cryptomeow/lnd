@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/cryptomeow/lnd/lnrpc/routerrpc"
+	"github.com/cryptomeow/lnd/lntest"
+	"github.com/cryptomeow/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

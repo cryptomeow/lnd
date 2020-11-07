@@ -3,8 +3,8 @@ package sweep
 import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
 )
 
 // weightEstimator wraps a standard weight estimator instance and adds to that

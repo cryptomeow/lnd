@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/cryptomeow/lnd/chainreg"
+	"github.com/cryptomeow/lnd/channeldb"
 )
 
 type incubateTest struct {

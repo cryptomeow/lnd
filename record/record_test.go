@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/record"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 type recordEncDecTest struct {

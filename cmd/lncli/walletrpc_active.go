@@ -12,8 +12,8 @@ import (
 	"sort"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnrpc/walletrpc"
 	"github.com/urfave/cli"
 )
 

@@ -3,9 +3,9 @@ package routing
 import (
 	"container/heap"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/routing/route"
 )
 
 // nodeWithDist is a helper struct that couples the distance from the current

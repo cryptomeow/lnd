@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lntest"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/lntest"
 )
 
 // testMaxChannelSize tests that lnd handles --maxchansize parameter

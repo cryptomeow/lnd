@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/tor"
 )
 
 var (

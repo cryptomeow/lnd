@@ -1,7 +1,7 @@
 package buffer
 
 import (
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // WriteSize represents the size of the maximum plaintext message than can be

@@ -1,7 +1,7 @@
 package record
 
 import (
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 const (

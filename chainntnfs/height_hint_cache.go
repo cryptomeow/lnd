@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
 )
 
 var (

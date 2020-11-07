@@ -9,11 +9,11 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower"
-	"github.com/lightningnetwork/lnd/watchtower/wtclient"
+	"github.com/cryptomeow/lnd/lncfg"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/watchtower"
+	"github.com/cryptomeow/lnd/watchtower/wtclient"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

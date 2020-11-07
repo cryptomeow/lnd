@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 type nodeAmts struct {

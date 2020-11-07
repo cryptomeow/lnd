@@ -16,8 +16,8 @@ import (
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/psbt"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/keychain"
 	"github.com/stretchr/testify/require"
 )
 

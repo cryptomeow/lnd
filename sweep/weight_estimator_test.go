@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
 )
 

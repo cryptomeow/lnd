@@ -2,7 +2,7 @@ package build
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/signal"
+	"github.com/cryptomeow/lnd/signal"
 )
 
 // ShutdownLogger wraps an existing logger with a shutdown function which will

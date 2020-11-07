@@ -8,11 +8,11 @@ import (
 	"io"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/htlcswitch/hop"
+	"github.com/cryptomeow/lnd/invoices"
+	"github.com/cryptomeow/lnd/lntypes"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 // htlcIncomingContestResolver is a ContractResolver that's able to resolve an

@@ -3,10 +3,10 @@ package invoices
 import (
 	"errors"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/lntypes"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/record"
 )
 
 // invoiceUpdateCtx is an object that describes the context for the invoice

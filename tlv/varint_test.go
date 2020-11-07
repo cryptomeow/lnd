@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 type varIntTest struct {

@@ -8,9 +8,9 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/sweep"
 )
 
 // anchorResolver is a resolver that will attempt to sweep our anchor output.

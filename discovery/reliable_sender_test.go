@@ -7,9 +7,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lntest/wait"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnpeer"
+	"github.com/cryptomeow/lnd/lntest/wait"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 // newTestReliableSender creates a new reliable sender instance used for

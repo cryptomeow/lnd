@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
 )
 
 const (

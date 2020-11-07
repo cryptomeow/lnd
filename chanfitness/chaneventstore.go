@@ -16,13 +16,13 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channelnotifier"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/peernotifier"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/subscribe"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/channelnotifier"
+	"github.com/cryptomeow/lnd/clock"
+	"github.com/cryptomeow/lnd/peernotifier"
+	"github.com/cryptomeow/lnd/routing/route"
+	"github.com/cryptomeow/lnd/subscribe"
+	"github.com/cryptomeow/lnd/ticker"
 )
 
 const (

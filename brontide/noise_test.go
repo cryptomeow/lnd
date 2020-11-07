@@ -11,9 +11,9 @@ import (
 	"testing/iotest"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/tor"
 )
 
 type maybeNetConn struct {

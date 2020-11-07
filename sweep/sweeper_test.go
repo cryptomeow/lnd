@@ -11,12 +11,12 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lntest/mock"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/build"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lntest/mock"
+	"github.com/cryptomeow/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
 )
 

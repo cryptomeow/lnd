@@ -7,12 +7,12 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/lncfg"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnrpc/routerrpc"
+	"github.com/cryptomeow/lnd/lntest"
+	"github.com/cryptomeow/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

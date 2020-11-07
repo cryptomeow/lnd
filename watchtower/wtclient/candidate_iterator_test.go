@@ -10,7 +10,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/cryptomeow/lnd/watchtower/wtdb"
 )
 
 func init() {

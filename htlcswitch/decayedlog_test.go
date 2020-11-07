@@ -9,8 +9,8 @@ import (
 	"time"
 
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lntest/mock"
+	"github.com/cryptomeow/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/lntest/mock"
 )
 
 const (

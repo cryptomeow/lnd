@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 // RPCTransactionDetails returns a set of rpc transaction details.

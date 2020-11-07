@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
@@ -16,10 +16,10 @@ import (
 	"github.com/btcsuite/btcutil"
 	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/cryptomeow/lnd/clock"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/shachain"
 )
 
 var (

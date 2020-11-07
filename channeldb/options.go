@@ -1,6 +1,6 @@
 package channeldb
 
-import "github.com/lightningnetwork/lnd/clock"
+import "github.com/cryptomeow/lnd/clock"
 
 const (
 	// DefaultRejectCacheSize is the default number of rejectCacheEntries to

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 // TestTxInputSet tests adding various sized inputs to the set.

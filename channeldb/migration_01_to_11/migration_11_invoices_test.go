@@ -8,8 +8,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	bitcoinCfg "github.com/btcsuite/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/zpay32"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/zpay32"
 	litecoinCfg "github.com/ltcsuite/ltcd/chaincfg"
 )
 

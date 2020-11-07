@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/buffer"
-	"github.com/lightningnetwork/lnd/pool"
+	"github.com/cryptomeow/lnd/buffer"
+	"github.com/cryptomeow/lnd/pool"
 )
 
 type workerPoolTest struct {

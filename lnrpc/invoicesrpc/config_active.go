@@ -4,11 +4,11 @@ package invoicesrpc
 
 import (
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/macaroons"
-	"github.com/lightningnetwork/lnd/netann"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/invoices"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/macaroons"
+	"github.com/cryptomeow/lnd/netann"
 )
 
 // Config is the primary configuration struct for the invoices RPC server. It

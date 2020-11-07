@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/lightningnetwork/lnd/input"
+	"github.com/cryptomeow/lnd/input"
 )
 
 // Sig is a fixed-sized ECDSA signature. Unlike Bitcoin, we use fixed sized

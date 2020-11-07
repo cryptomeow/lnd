@@ -9,8 +9,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/lightningnetwork/lnd/autopilot"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/autopilot"
+	"github.com/cryptomeow/lnd/lnrpc"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

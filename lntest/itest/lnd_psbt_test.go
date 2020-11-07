@@ -8,10 +8,10 @@ import (
 
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
-	"github.com/lightningnetwork/lnd/lntest"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lnrpc/walletrpc"
+	"github.com/cryptomeow/lnd/lntest"
 	"github.com/stretchr/testify/require"
 )
 

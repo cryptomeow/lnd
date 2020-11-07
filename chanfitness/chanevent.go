@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/clock"
+	"github.com/cryptomeow/lnd/clock"
 )
 
 type eventType int

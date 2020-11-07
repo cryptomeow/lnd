@@ -8,11 +8,11 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/lntest/mock"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/cryptomeow/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/clock"
+	"github.com/cryptomeow/lnd/lntest/mock"
+	"github.com/cryptomeow/lnd/lnwallet"
 )
 
 // TestChainArbitratorRepulishCloses tests that the chain arbitrator will

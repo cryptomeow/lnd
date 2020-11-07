@@ -5,9 +5,9 @@ import (
 	"errors"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
+	"github.com/cryptomeow/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/watchtower/blob"
 )
 
 const (

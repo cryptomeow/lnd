@@ -19,11 +19,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest/wait"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd"
+	"github.com/cryptomeow/lnd/lnrpc"
+	"github.com/cryptomeow/lnd/lntest/wait"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/lnwire"
 	"google.golang.org/grpc/grpclog"
 )
 

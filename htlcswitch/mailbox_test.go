@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/clock"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 const testExpiry = time.Minute

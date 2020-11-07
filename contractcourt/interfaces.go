@@ -4,14 +4,14 @@ import (
 	"io"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/htlcswitch/hop"
+	"github.com/cryptomeow/lnd/input"
+	"github.com/cryptomeow/lnd/invoices"
+	"github.com/cryptomeow/lnd/lntypes"
+	"github.com/cryptomeow/lnd/lnwallet/chainfee"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/sweep"
 )
 
 // Registry is an interface which represents the invoice registry.
