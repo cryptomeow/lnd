@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/cryptomeow/lnd/tlv"
 )
 
 type parsedTypeTest struct {

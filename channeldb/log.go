@@ -2,12 +2,12 @@ package channeldb
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	mig "github.com/lightningnetwork/lnd/channeldb/migration"
-	"github.com/lightningnetwork/lnd/channeldb/migration12"
-	"github.com/lightningnetwork/lnd/channeldb/migration13"
-	"github.com/lightningnetwork/lnd/channeldb/migration16"
-	"github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
+	"github.com/cryptomeow/lnd/build"
+	mig "github.com/cryptomeow/lnd/channeldb/migration"
+	"github.com/cryptomeow/lnd/channeldb/migration12"
+	"github.com/cryptomeow/lnd/channeldb/migration13"
+	"github.com/cryptomeow/lnd/channeldb/migration16"
+	"github.com/cryptomeow/lnd/channeldb/migration_01_to_11"
 )
 
 // log is a logger that is initialized with no output filters.  This

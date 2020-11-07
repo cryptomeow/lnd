@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/lnrpc/lnclipb"
-	"github.com/lightningnetwork/lnd/lnrpc/verrpc"
+	"github.com/cryptomeow/lnd/build"
+	"github.com/cryptomeow/lnd/lnrpc/lnclipb"
+	"github.com/cryptomeow/lnd/lnrpc/verrpc"
 	"github.com/urfave/cli"
 )
 

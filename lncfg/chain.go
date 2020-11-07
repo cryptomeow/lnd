@@ -1,6 +1,6 @@
 package lncfg
 
-import "github.com/lightningnetwork/lnd/lnwire"
+import "github.com/cryptomeow/lnd/lnwire"
 
 // Chain holds the configuration options for the daemon's chain settings.
 type Chain struct {

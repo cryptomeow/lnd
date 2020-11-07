@@ -2,8 +2,8 @@ package routing
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/routing/chainview"
+	"github.com/cryptomeow/lnd/build"
+	"github.com/cryptomeow/lnd/routing/chainview"
 )
 
 // log is a logger that is initialized with no output filters.  This means the

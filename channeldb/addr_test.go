@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/cryptomeow/lnd/tor"
 )
 
 type unknownAddrType struct{}

@@ -1,4 +1,4 @@
-module github.com/lightningnetwork/lnd
+module github.com/cryptomeow/lnd
 
 require (
 	git.schwanenlied.me/yawning/bsaes.git v0.0.0-20180720073208-c0276d75487e // indirect
@@ -48,10 +48,10 @@ require (
 	github.com/lightninglabs/neutrino v0.11.1-0.20200316235139-bffc52e8f200
 	github.com/lightninglabs/protobuf-hex-display v1.3.3-0.20191212020323-b444784ce75d
 	github.com/lightningnetwork/lightning-onion v1.0.2-0.20200501022730-3c8c8d0b89ea
-	github.com/lightningnetwork/lnd/cert v1.0.2
-	github.com/lightningnetwork/lnd/clock v1.0.1
-	github.com/lightningnetwork/lnd/queue v1.0.4
-	github.com/lightningnetwork/lnd/ticker v1.0.0
+	github.com/cryptomeow/lnd/cert v1.0.2
+	github.com/cryptomeow/lnd/clock v1.0.1
+	github.com/cryptomeow/lnd/queue v1.0.4
+	github.com/cryptomeow/lnd/ticker v1.0.0
 	github.com/ltcsuite/ltcd v0.0.0-20190101042124-f37f8bf35796
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/miekg/dns v0.0.0-20171125082028-79bfde677fa8
@@ -76,13 +76,13 @@ require (
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
 
-replace github.com/lightningnetwork/lnd/ticker => ./ticker
+replace github.com/cryptomeow/lnd/ticker => ./ticker
 
-replace github.com/lightningnetwork/lnd/queue => ./queue
+replace github.com/cryptomeow/lnd/queue => ./queue
 
-replace github.com/lightningnetwork/lnd/cert => ./cert
+replace github.com/cryptomeow/lnd/cert => ./cert
 
-replace github.com/lightningnetwork/lnd/clock => ./clock
+replace github.com/cryptomeow/lnd/clock => ./clock
 
 replace git.schwanenlied.me/yawning/bsaes.git => github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e
 

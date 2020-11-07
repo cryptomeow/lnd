@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
 )
 
 var (

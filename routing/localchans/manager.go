@@ -5,11 +5,11 @@ import (
 	"sync"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/discovery"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/discovery"
+	"github.com/cryptomeow/lnd/htlcswitch"
+	"github.com/cryptomeow/lnd/lnwire"
+	"github.com/cryptomeow/lnd/routing"
 )
 
 // Manager manages the node's local channels. The only operation that is

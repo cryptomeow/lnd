@@ -1,6 +1,6 @@
 package peer
 
-import "github.com/lightningnetwork/lnd/lnwire"
+import "github.com/cryptomeow/lnd/lnwire"
 
 // LinkUpdater is an interface implemented by most messages in BOLT 2 that are
 // allowed to update the channel state.

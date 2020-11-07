@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/cert"
+	"github.com/cryptomeow/lnd/cert"
 	"github.com/stretchr/testify/require"
 )
 

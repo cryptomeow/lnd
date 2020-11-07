@@ -12,14 +12,14 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
-	mig "github.com/lightningnetwork/lnd/channeldb/migration"
-	"github.com/lightningnetwork/lnd/channeldb/migration12"
-	"github.com/lightningnetwork/lnd/channeldb/migration13"
-	"github.com/lightningnetwork/lnd/channeldb/migration16"
-	"github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
+	mig "github.com/cryptomeow/lnd/channeldb/migration"
+	"github.com/cryptomeow/lnd/channeldb/migration12"
+	"github.com/cryptomeow/lnd/channeldb/migration13"
+	"github.com/cryptomeow/lnd/channeldb/migration16"
+	"github.com/cryptomeow/lnd/channeldb/migration_01_to_11"
+	"github.com/cryptomeow/lnd/clock"
+	"github.com/cryptomeow/lnd/lnwire"
 )
 
 const (

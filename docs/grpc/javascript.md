@@ -17,7 +17,7 @@ You also need to copy the `lnd` `rpc.proto` file in your project directory (or
 at least somewhere reachable by your Javascript code).
 
 The `rpc.proto` file is [located in the `lnrpc` directory of the `lnd`
-sources](https://github.com/lightningnetwork/lnd/blob/master/lnrpc/rpc.proto).
+sources](https://github.com/cryptomeow/lnd/blob/master/lnrpc/rpc.proto).
 
 ### Imports and Client
 

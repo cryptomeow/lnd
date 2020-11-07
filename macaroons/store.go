@@ -7,7 +7,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/lightningnetwork/lnd/channeldb/kvdb"
+	"github.com/cryptomeow/lnd/channeldb/kvdb"
 
 	"github.com/btcsuite/btcwallet/snacl"
 )

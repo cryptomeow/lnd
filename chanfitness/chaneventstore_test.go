@@ -8,11 +8,11 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channelnotifier"
-	"github.com/lightningnetwork/lnd/peernotifier"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/cryptomeow/lnd/channeldb"
+	"github.com/cryptomeow/lnd/channelnotifier"
+	"github.com/cryptomeow/lnd/peernotifier"
+	"github.com/cryptomeow/lnd/routing/route"
+	"github.com/cryptomeow/lnd/subscribe"
 )
 
 // TestStartStoreError tests the starting of the store in cases where the setup

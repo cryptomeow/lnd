@@ -9,7 +9,7 @@ import (
 	"time"
 
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/cryptomeow/lnd/chainntnfs"
 )
 
 const (

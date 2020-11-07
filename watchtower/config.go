@@ -8,9 +8,9 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/tor"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
+	"github.com/cryptomeow/lnd/keychain"
+	"github.com/cryptomeow/lnd/tor"
+	"github.com/cryptomeow/lnd/watchtower/lookout"
 )
 
 const (

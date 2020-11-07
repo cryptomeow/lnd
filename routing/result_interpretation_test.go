@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/cryptomeow/lnd/lnwire"
 
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/cryptomeow/lnd/routing/route"
 )
 
 var (

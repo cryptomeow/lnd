@@ -21,7 +21,7 @@
 # Installation
 
 ### Preliminaries
-  In order to work with [`lnd`](https://github.com/lightningnetwork/lnd), the
+  In order to work with [`lnd`](https://github.com/cryptomeow/lnd), the
   following build dependencies are required:
 
   * **Go:** `lnd` is written in Go. To install, run one of the following commands:
@@ -104,7 +104,7 @@
 With the preliminary steps completed, to install `lnd`, `lncli`, and all
 related dependencies run the following commands:
 ```
-git clone https://github.com/lightningnetwork/lnd
+git clone https://github.com/cryptomeow/lnd
 cd lnd
 make install
 ```
@@ -112,11 +112,11 @@ make install
 The command above will install the current _master_ branch of `lnd`. If you
 wish to install a tagged release of `lnd` (as the master branch can at times be
 unstable), then [visit then release page to locate the latest
-release](https://github.com/lightningnetwork/lnd/releases). Assuming the name
+release](https://github.com/cryptomeow/lnd/releases). Assuming the name
 of the release is `v0.x.x`, then you can compile this release from source with
 a small modification to the above command: 
 ```
-git clone https://github.com/lightningnetwork/lnd
+git clone https://github.com/cryptomeow/lnd
 cd lnd
 git checkout v0.x.x
 make install
@@ -150,7 +150,7 @@ GO111MODULE=on go install -v ./...
 To update your version of `lnd` to the latest version run the following
 commands:
 ```
-cd $GOPATH/src/github.com/lightningnetwork/lnd
+cd $GOPATH/src/github.com/cryptomeow/lnd
 git pull
 make clean && make && make install
 ```
@@ -160,7 +160,7 @@ On FreeBSD, use gmake instead of make.
 Alternatively, if one doesn't wish to use `make`, then the `go` commands can be
 used directly:
 ```
-cd $GOPATH/src/github.com/lightningnetwork/lnd
+cd $GOPATH/src/github.com/cryptomeow/lnd
 git pull
 GO111MODULE=on go install -v ./...
 ```
@@ -405,7 +405,7 @@ keep in a safe place.
 `lnd`'s authentication system is called **macaroons**, which are decentralized
 bearer credentials allowing for delegation, attenuation, and other cool
 features. You can learn more about them in Alex Akselrod's [writeup on
-Github](https://github.com/lightningnetwork/lnd/issues/20).
+Github](https://github.com/cryptomeow/lnd/issues/20).
 
 Running `lnd` for the first time will by default generate the `admin.macaroon`,
 `read_only.macaroon`, and `macaroons.db` files that are used to authenticate
@@ -473,7 +473,7 @@ Notice the `[Bitcoin]` section. This section houses the parameters for the
 Bitcoin chain. `lnd` also supports Litecoin testnet4 (but not both BTC and LTC
 at the same time), so when working with Litecoin be sure to set to parameters
 for Litecoin accordingly. See a more detailed sample config file available
-[here](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf)
+[here](https://github.com/cryptomeow/lnd/blob/master/sample-lnd.conf)
 and explore the other sections for node configuration, including `[Btcd]`,
 `[Bitcoind]`, `[Neutrino]`, `[Ltcd]`, and `[Litecoind]` depending on which
 chain and node type you're using.
